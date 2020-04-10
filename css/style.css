@@ -1,0 +1,320 @@
+/*
+Shimmering Blush: #E0829B
+Light Cyan: #D1FAFF
+Pale Cerulean: #9BD1E5
+Verdigris: #4598AD
+Gargoyle Gas: #FFCE47
+Eggshell: #FBF8EF
+Platinum: #E5E4E2
+Jet: #616D7E
+Gunmetal: #2C3539
+*/
+
+
+
+/*
+~~~~~UNIVERSAL~~~~~
+*/
+* {
+  color: #2C3539;
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 1px 2px 3px rgba(97, 109, 126, 0.749);
+  border-radius: 1%;
+}
+
+strong {
+  color: black;
+  text-shadow: unset;
+}
+
+body {
+  display: flex;
+  margin: 0;
+  background-color: #E5E4E2;
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 17rem;
+}
+
+footer {
+  padding-top: 20px;
+}
+
+aside.about, aside.portfolio, aside.hobbies {
+  display: flex;
+  margin: 0;
+  padding: 30px;
+  background-size: cover;
+  background-position: bottom center;
+  color: #E5E4E2;
+  
+  background-color: rgba(229, 228, 226, 0.70);
+  align-self: center;
+
+  height: 100vh;
+  width: 30vw;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+aside div {
+  text-align: center;
+  background-color: rgba(229, 228, 226, 0.8);
+  padding: 40px 20px;
+}
+
+aside.about {
+  background-image: url('../images/sunset-ocean.jpg');
+}
+
+aside.portfolio {
+  background-image: url('../images/code.png');
+}
+
+aside.hobbies {
+  background-image: url('../images/hobbies.jpg');
+}
+
+aside img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+h1.sidenav {
+  font-weight: bold;
+}
+
+h2.sidenav {
+  font-size: medium;
+  padding-bottom: 17px;
+}
+
+.sidenav a:hover {
+  background-image: radial-gradient(rgba(229, 228, 226, 0.75), rgba(229, 228, 226, 0.75));
+  color: rgb(28, 28, 28);
+
+  text-align: center;
+  text-transform: lowercase;
+  text-decoration: unset;
+  text-decoration-color: black;
+  font-size: small;
+}
+
+a.home {
+  background: url(../images/sunrise-wallpaper.jpg);
+  background-size: 50px 50px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 0;
+}
+
+a.about {
+  background: url(../images/sunset-ocean.jpg);
+  background-size: 50px 50px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 0;
+}
+
+a.portfolio {
+  background: url(../images/code.png);
+  background-size: 500px;
+  background-position: 100px 100px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 0;
+}
+
+a.hobbies {
+  background: url(../images/hobbies.jpg);
+  background-size: 50px 50px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 0;
+}
+
+/*
+~~~~~INDEX~~~~~
+*/
+
+body.index {
+  background-image: url('../images/sunrise-wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  background-attachment: fixed;
+  background-color: #4598AD;
+
+  text-align: center;
+  justify-content: center;
+
+  color: #4598AD;
+  font-size: medium;
+  font-family: font-family: 'Montserrat', sans-serif;
+}
+
+main.index {
+  background-color: rgba(229, 228, 226, 0.70);
+  align-self: center;
+  padding: 40px 60px;
+}
+
+header.index h2 {
+  font-size: medium;
+  padding-bottom: 10px;
+}
+
+header.index img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 3px 2px 7px #9bd1e5b3;
+}
+
+
+
+/*
+~~~~~ABOUT~~~~~
+*/
+
+main.about {
+  justify-content: center;
+  width: 60vw;
+}
+
+header.about {
+  flex-wrap: wrap;
+  margin: 10vh;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+header.about img {
+  width: 200px;
+  border-radius: 50%;
+  /* box-shadow: 1px 1px 10px rgba(228, 118, 106, 0.899); */
+}
+
+header.about p {
+  font-size: smaller;
+  text-shadow: none;
+}
+
+/*
+~~~~~PORTFOLIO~~~~~
+*/
+
+aside.portfolio {
+  background-position: left;
+}
+
+main.portfolio {
+  justify-content: center;
+  width: 60vw;
+}
+
+article.hotel {
+  background-image: url(../images/hotel-code.png);
+  background-size: cover;
+  background-position: center;
+}
+
+article.oo-ride {
+  background-image: url(../images/oo-ride-code.png);
+  background-size: cover;
+  background-position: center;
+}
+
+article.js-calculator {
+  background-image: url(../images/js-calculator.png);
+  background-size: cover;
+  background-position: center;
+}
+
+
+/*
+~~~~~HOBBIES~~~~~
+*/
+
+main.hobbies {
+  justify-content: center;
+  width: 60vw;
+}
+
+h1.display {
+  text-align: center;
+}
+
+div.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+article.display {
+  justify-content: center;
+  align-content: center;
+  background-color: rgba(255, 255, 255, 0.75);
+  width: 300px;
+  height: 300px;
+  box-shadow: 3px 2px 7px rgba(142, 142, 142, 0.29);
+  border-radius: 2%;
+  margin: 15px;
+  text-align: center;
+}
+
+div.display {
+  width:300px;
+  height:300px;
+  font-size:medium;
+}
+
+div.display:hover {
+  background-color: rgba(229, 228, 226, 0.6);
+}
+
+div.display * {
+  visibility: hidden;
+}
+
+div.display:hover * {
+  visibility: visible;
+}
+
+div.display h2 {
+  margin-block-start: unset;
+  margin-block-end: unset;
+}
+
+article.ravelry {
+  background: url(../images/yarn-on-wood-board.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+article.textillia {
+  background-image: url(../images/sewing-machine-close-up.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+article.blog {
+  background-image: url(../images/blog-header.jpg);
+  background-size: cover;
+  background-position: center;
+}
